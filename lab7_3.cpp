@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int age,height,money;
+    float age,height,money;
     string status;
     cout << "Input age: ";
     cin >> age;
@@ -16,7 +16,6 @@ int main()
             cin >> money;
             if(money>69000000){ status = "MARRIED"; }
             else{ status = "ONE-NIGHT-STAND"; }
-
         }
 
     }else if(age<30){

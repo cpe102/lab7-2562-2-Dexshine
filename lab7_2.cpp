@@ -29,10 +29,9 @@ int main(){
 		cout << "Score of student " << i+1 << ": ";
 		//[Missing Code 3] Get score of the i-th students.
 		cin >> score[i];
-		cin.ignore();
+		
 		i++;
 	}
-	
 	//Print names scores and grades
 	i = 0;
 	cout << "---------------------------------------------\n";
